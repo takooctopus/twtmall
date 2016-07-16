@@ -26,7 +26,7 @@ class CreateGoodssTable extends Migration
             $table->string('phone');
             $table->string('wechat');
             $table->string('qq');
-            $table->string('imgurl');
+            $table->string('img_id');
             $table->dateTime('time');
             $table->integer('view');
             $table->tinyInteger('show');

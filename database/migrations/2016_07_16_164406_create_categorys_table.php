@@ -16,7 +16,6 @@ class CreateCategorysTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('class');
-            $table->integer('category_id');
             $table->timestamps();
         });
     }
