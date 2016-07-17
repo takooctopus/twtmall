@@ -35,4 +35,12 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'twtsso' => [
+        'server' => env('TWT_SERVER'),
+        'server_ip' => env('TWT_SERVER_IP'),
+        'client_id' => env('TWT_CLIENT_ID'),
+        'client_secret' => env('TWT_CLIENT_SECRET'),
+        'redirect' => env('TWT_REDIRECT')
+    ],
+
 ];
